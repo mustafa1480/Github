@@ -11,7 +11,7 @@ print(x + y)
 
 Num = int(input("Enter the Two Digit number: "))
 # ================================================================
-# print(Num[0] + Num[1])
+print(Num[0] + Num[1])
 
 
 Num = input("Enter the Two Digit Number: \n")
@@ -86,7 +86,7 @@ while is_on:
 
     if coffee_maker.is_resource_sufficient(drink) and money_machine.make_payment(drink.cost):
 
-#       coffee_maker.make_coffee(drink)
+       coffee_maker.make_coffee(drink)
 # ======================================================================
 #                 BMI using If/else
 height = float(input("Enter your height in m \n"))
